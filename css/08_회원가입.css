@@ -1,0 +1,21 @@
+.회원가입 {
+    border: 3px solid gray;
+    border-radius: 20px;
+    padding: 10px 50px;
+    width: 500px;
+    margin: 100px auto;
+  }
+  .info {
+    padding: 10px;
+    margin: 0 auto;
+  }
+  button {
+    padding: 0px;
+    border-radius: 10px;
+    color: blue;
+    border-color: blue;
+    border: 5px solid blue;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
