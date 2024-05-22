@@ -1,0 +1,15 @@
+button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+/* 버튼 위에 마우스 올렸을 때 색상 변경 */
+button:hover{
+    background-color: yellowgreen;
+}
+ul{
+    list-style-type: none;
+}
