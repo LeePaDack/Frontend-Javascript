@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>append. 항목 추가하기</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script>
+            function addItem(){
+                // append 와 같은 기능 함수를 쓸 때 줄이 길어지면 
+                // "" 나 '' 가 아니라 `` 백틱을 사용해서 묶어줘야함
+                $("#list").append(`<li>
+                이 편지는 영국에서 최초로 시작되어
+                일년에 어쩌구
+                지금은 어쩌고
+                당신곁을 어쩌고
+                7통 어쩌고
+            </li>`);
+            }
+        </script>
+    </head>
+    <body>
+        <ul id="list">
+            <li>
+                이 편지는 영국에서 최초로 시작되어
+                일년에 어쩌구
+                지금은 어쩌고
+                당신곁을 어쩌고
+                7통 어쩌고
+            </li>
+            <li>
+                이 편지는 영국에서 최초로 시작되어
+                일년에 어쩌구
+                지금은 어쩌고
+                당신곁을 어쩌고
+                7통 어쩌고
+            </li>
+        </ul>
+        <button onclick="addItem()">항목 추가</button>
+    </body>
+</html>
