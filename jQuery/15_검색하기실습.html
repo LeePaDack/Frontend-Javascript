@@ -9,8 +9,10 @@
                 $("#searchBox").keyup(function(){
                     const searchBox = $(this).val();
                     var 검색결과확인 = false;
-                    $('li').each(function(){
+                    $('#cloth-list li').each(function(){
                         var text = $(this).text();
+                        console.log(" ********************* ");
+                        console.log(text); // 자바에서 System.out.print 같은 것
                         if(text.indexOf(searchBox) === -1){
                             $(this).hide();
                             $(".notFound").show();
